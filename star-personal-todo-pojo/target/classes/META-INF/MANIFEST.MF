@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: star-personal-todo-pojo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: NarcissuLyh
+Implementation-Vendor-Id: com.aloner2019.personal
+Build-Jdk: 1.8.0_201
+Implementation-URL: http://projects.spring.io/spring-boot/star-persona
+ l-todo/star-personal-todo-pojo/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

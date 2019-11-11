@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aloner2019.mapper.RecordMapper">
+	<resultMap id="BaseResultMap"
+		type="com.aloner2019.pojo.Record">
+		<!-- WARNING - @mbg.generated -->
+		<id column="id" property="id" jdbcType="VARCHAR" />
+		<result column="title" property="title" jdbcType="VARCHAR" />
+		<result column="content" property="content" jdbcType="VARCHAR" />
+		<result column="creator" property="title" jdbcType="VARCHAR" />
+		<result column="completed" property="completed"
+			jdbcType="INTEGER" />
+		<result column="create_at" property="createAt" />
+		<result column="update_at" property="updateAt" />
+	</resultMap>
+</mapper>
