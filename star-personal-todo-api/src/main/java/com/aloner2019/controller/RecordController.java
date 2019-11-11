@@ -10,6 +10,7 @@ import com.aloner2019.utils.StarJSONResult;
 public class RecordController extends BaseController {
 
 	
+	
 	@Autowired
 	private RecordService recordService;
 	
