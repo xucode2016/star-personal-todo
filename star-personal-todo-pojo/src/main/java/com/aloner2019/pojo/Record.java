@@ -96,4 +96,12 @@ public class Record {
 	public void setUpdateAt(Date updateAt) {
 		this.updateAt = updateAt;
 	}
+
+	@Override
+	public String toString() {
+		return "Record [id=" + id + ", title=" + title + ", content=" + content + ", creator=" + creator
+				+ ", completed=" + completed + ", createAt=" + createAt + ", updateAt=" + updateAt + "]";
+	}
+	
+	
 }

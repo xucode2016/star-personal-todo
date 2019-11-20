@@ -16,17 +16,17 @@ public class UserController extends BaseController {
 	@Autowired
 	UserService userService;
 
-	@GetMapping("/register")
-	public StarJSONResult register() {
-		User user = new User();
-		String nickname = "test01";
-		String username = "test01";
-		String password = "test01";
-		user.setNickname(nickname);
-		user.setUsername(username);
-		user.setPassword(password);
-		user.setCreateAt(new Date());
-		userService.saveUser(user);
-		return StarJSONResult.ok(user);
-	}
+//	@GetMapping("/register")
+//	public StarJSONResult register() {
+//		User user = new User();
+//		String nickname = "test01";
+//		String username = "test01";
+//		String password = "test01";
+//		user.setNickname(nickname);
+//		user.setUsername(username);
+//		user.setPassword(password);
+//		user.setCreateAt(new Date());
+//		userService.saveUser(user);
+//		return StarJSONResult.ok(user);
+//	}
 }
